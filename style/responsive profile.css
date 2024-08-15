@@ -1,0 +1,25 @@
+@media (max-width:476px){
+  .prifile-page{
+     padding: 0;
+     margin: 0;
+  }
+
+  .profile-detail {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pd-right{
+    text-align:left;
+    margin-top: 15px;
+  }
+  .profile-intro{
+    flex-wrap: wrap;
+  }
+  .profile-info{
+    flex-wrap: wrap;
+  }
+
+  .info-col, .post-col{
+    flex-basis: 100%;
+  }
+}

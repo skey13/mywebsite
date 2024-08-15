@@ -1,0 +1,35 @@
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:var(--nav-color);
+  padding: 5px 5%;
+  
+}
+
+.logo{
+/*   width: 160px; */
+font-size: 30px;
+color: white;
+}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav-left ul li img{
+  width: 28px;
+  margin: 0 15px;
+}

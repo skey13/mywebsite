@@ -1,0 +1,46 @@
+
+
+@media (max-width:900px) {
+  .left-sidebar{
+    display: none;
+  }
+
+  html{
+    scrollbar-width: 15px;
+  }
+
+  .right-sidebar{
+    display: none;
+  }
+
+    nav{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+  .search-box{
+    width:260px;
+    background-color: brown;
+  }
+
+  .search-box input{
+    width: 100%;
+  }
+  
+  .write-post-container{
+    flex-wrap: wrap;
+  }
+
+  .main-content{
+    flex-basis: 100%;
+  }
+
+  footer{
+    width: 80%;
+  }
+
+  .story img{
+    width: 30px;
+    border-width: 3px solid gray;
+  }
+}
